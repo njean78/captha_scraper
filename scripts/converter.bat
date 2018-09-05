@@ -1,17 +1,6 @@
-rem C:\Program Files (x86)\Tesseract-OCR
-rem C:\Program Files\ImageMagick-7.0.8-Q16
-rem
-rem convert image in gray scale for tesseract
-rem
-
-rem magick convert captcha.jpg -set colorspace Gray -separate -average captcha_grey.jpg
-
-rem magick convert captcha.jpg -type bilevel -separate -average captcha_grey2.jpg
-
-rem magick convert captcha.jpg -monochrome -negate captcha_grey3.jpg
-
-rem magick convert captcha.jpg -monochrome -negate -threshold 64% captcha_grey4.jpg
 rem echo off
+rem process an image using imagemagick and do the parsing with tesseract
+rem example : converter.bat captha.jpg 60 90
 set filename=%1
 set perc=%2
 set perc2=%3
