@@ -31,6 +31,9 @@ sudo chmod --recursive a+r "$SR_LIB/zh-CN/"
 
 
 
+3 - get sox
+
+4 - get pydub https://stackoverflow.com/questions/36458214/split-speech-audio-file-on-words-in-python
 
 
 
